@@ -14,7 +14,7 @@ define('VERSION', '0.1.1');
 
 $timestart = microtime(TRUE);
 $GLOBALS['status'] = array();
-
+ echo 'test';
 $unzipper = new Unzipper;
 if (isset($_POST['dounzip'])) {
   // Check if an archive was selected for unzipping.
